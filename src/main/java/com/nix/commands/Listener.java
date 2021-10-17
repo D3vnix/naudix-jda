@@ -9,13 +9,16 @@ public class Listener extends ListenerAdapter {
     
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
-        String com = event.getMessage().getContentRaw();
-        
+        String msg = event.getMessage().getContentRaw();
+    
+        if(event.getAuthor().isBot()) return;
+
         for(Command c : Naudix.bot.commands().get()) {
             for(String name : c.getNames()) {
-                if(com.startsWith(Naudix.TOKEN + name)) {
+                if(msg.startsWith(Naudix.TOKEN + name)) {
+                    Naudix.bot.setTextChannel(event.getTextChannel());
                     c.invoke(event);
-
+                    
                     break;
                 }
             }

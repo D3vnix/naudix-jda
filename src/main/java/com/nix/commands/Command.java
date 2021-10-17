@@ -18,7 +18,7 @@ public abstract class Command implements ICommand {
         this.names = new ArrayList<>();
 
         for(int i = 0; i < name.length; i ++) {
-            this.names.add(name[0]);
+            this.names.add(name[i]);
         }
     }
 
