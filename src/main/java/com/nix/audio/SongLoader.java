@@ -33,8 +33,8 @@ public class SongLoader {
         this.handler = handler;
 
         this.api = new SpotifyApi.Builder()
-                    .setClientId("07ace63559284c48b20db189663c1bd3")
-                    .setClientSecret("1701cbff16634041b07d693fd98fc687")
+                    .setClientId("no")
+                    .setClientSecret("u")
                     .build();
     }
 
