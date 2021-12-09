@@ -28,3 +28,10 @@ and it would be nice if you credited me somewhere too
 ## -----
 ik the code isnt the neatest thing in the world in some places but eh i didnt make this with the intention of making the best code.
 i just wanted to get a working prototype up.
+
+## NOTES for myself later on if i come back to the project
+1. add proper yt api support instead of the bs im doing now to avoid it
+2. make my own implementation of the queue that isnt FIFO so i can fetch certain elements in the middle allowing for removing of songs from the queue
+3. add per-server queue and audio managing support
+4. make text feedback look nicer
+5. maybe utilize asynchronous code for loading songs
