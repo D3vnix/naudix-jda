@@ -25,7 +25,7 @@ idk maybe. if someone wants me to then sure dm me Nix3l#6653
 as long as you abide by the gplv3 license (i.e. you have to keep your code open source too), then yes.
 and it would be nice if you credited me somewhere too
 
-## -----
+## this code is awful dude you suck
 ik the code isnt the neatest thing in the world in some places but eh i didnt make this with the intention of making the best code.
 i just wanted to get a working prototype up.
 
