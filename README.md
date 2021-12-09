@@ -7,7 +7,7 @@ naudix currently can:
 
 1. load songs from spotify and youtube
 2. search youtube for videos and loading the top one
-3. skip songs in the queue
+3. a functional queue
 4. it has volume control
 
 ## Limitations
