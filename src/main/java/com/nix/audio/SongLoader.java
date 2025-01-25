@@ -136,7 +136,7 @@ public class SongLoader {
 
     private JSONObject searchYT(String in) throws IOException {
         String search = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q=" + in
-                + "&key=AIzaSyDIGjfxN7ZJbVHjqnABdbcOH95662kTRzk";
+                + "&key=-";
         String getJson = Jsoup.connect(search).timeout(10000).ignoreContentType(true).get().text();
         JSONTokener tokener = new JSONTokener(getJson);
         
