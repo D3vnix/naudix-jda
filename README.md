@@ -19,7 +19,7 @@ Plus i never really planned to use it since it was just a project i started.
 idk. woke up one day and i was like "you know what would be fun? making a discord music bot" and thus spent the next week working on it
 
 ## Will i ever finish it?
-idk maybe. if someone wants me to then sure dm me Nix3l#6653
+idk maybe. if someone wants me to then sure
 
 ## Can i yoink the source code?
 as long as you abide by the gplv3 license (i.e. you have to keep your code open source too), then yes.
